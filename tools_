@@ -199,6 +199,16 @@ sudo apt-get install git
 git --version
 
 git remote set-url origin https://khidodb@github.com/khidodb/tools_.git
+g
+
+git push --all origin -u
+
+how to merge stuff
+
+git checkout master
+git log ..mynotes # if you're curious
+git merge mynotes
+git push
 
 
 
