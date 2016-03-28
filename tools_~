@@ -162,34 +162,10 @@ https://khidodb@github.com/user/repo.git
 git remote set-url origin https://khidodb@github.com/khidodb/repo.git
 
 
-
-https://github.com/khidodb/tools_.git
-git remote set-url git@github.com:khidodb/tools_.git   https://khidodb@github.com/khidodb/repo.git
-
-
-git remote set-url https://khidodb@github.com/khidodb/tools_.git
-
-https://USERNAME@github.com/rootux/ms-Dropdown.git
-
-git clone ssh://khidodb@github.com/khidodb/tools_.git
-
 SSH
 Khidos_machine
 Fingerprint: e1:79:04:fd:3e:eb:a6:10:20:77:f0:18:29:a8:02:d6
 
-git push  <REMOTENAME> <BRANCHNAME>
-
-git remote add khidodb https://khidodb@github.com/khidodb/tools_.git
-
-git remote add origin https://khidodb@github.com/khidodb/tools_.git
-
-git remote add origin https://khidodb@github.com/khidodb/tools_.git
-
-git clone https://khidodb@github.com/khidodb/tools_.git
-
-git branch --track tools_
-
-git rev-list --left-right --count master...tools_
 
 
 sudo apt-get remove git
@@ -202,6 +178,8 @@ git remote set-url origin https://khidodb@github.com/khidodb/tools_.git
 g
 
 git push --all origin -u
+
+how to merge stuff
 
 
 
