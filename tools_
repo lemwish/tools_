@@ -199,6 +199,9 @@ sudo apt-get install git
 git --version
 
 git remote set-url origin https://khidodb@github.com/khidodb/tools_.git
+g
+
+git push --all origin -u
 
 
 
