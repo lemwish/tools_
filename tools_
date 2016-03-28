@@ -205,6 +205,11 @@ git push --all origin -u
 
 how to merge stuff
 
+git checkout master
+git log ..mynotes # if you're curious
+git merge mynotes
+git push
+
 
 
 
