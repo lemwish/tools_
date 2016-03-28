@@ -6,7 +6,7 @@ http://www.oracle.com/technetwork/articles/hunter-rac10gr2-iscsi-101317.html
 http://www.oracle.com/technetwork/articles/hunter-rac11gr2-iscsi-088677.html
 http://gjilevski.com/2011/07/29/virtualization-using-oracle-vm-virtualbox-for-building-two-node-oracle-rac-11gr2-11-2-0-2-cluster-where-oracle-11-2-0-2-rdbms-coexists-with-10gr2-10-2-0-5-rdbms-based-on-linux-oel-5-4/ 
 sudo apt-get install dkms 
-add the above command to add it to my repository 
+add the above command to add it to my repository
 
 sudo sh -c 'echo "deb http://download.virtualbox.org/virtualbox/debian precise contrib" >>
  /etc/apt/sources.list.d/virtualbox.list'
