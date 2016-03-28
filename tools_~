@@ -127,75 +127,7 @@ image
  
  
 Virtualization using Oracle VM VirtualBox for building t...
-Virtualization using Oracle VM VirtualBox for building two node Oracle RAC 11gR2 (11.2.0.2) cluster where Oracle 11.2.0.2 RDBMS coexists with 10gR2 (10.2.0.5) RDBMS...
-View on gjilevski.com
-Preview by Yahoo
- 
- 
- 
-
-
-sudo apt-get purge virtualbox-\*
-apt-get autoremove libtommath0
-tools_~
-
-git push origin master
-https://www.djangoproject.com/download/
-http://learnpythonthehardway.org/book/index.html
-https://docs.python.org/2/tutorial/controlflow.html
-http://www2.lib.uchicago.edu/keith/courses/python/class/5/
-url = https://github.com/lemwish/tools_.git
-url=ssh://git@github.com/lemwish/tools_.git
-https://bytes.com/topic/postgresql/answers/421355-storing-file-hash-primary-key
-rm .git/.config.swp
-http://www.cyberciti.biz/faq/howto-linux-unix-delete-remove-file/
-git remote set-url ssh://khidodb@github.com/lemwish/tools_.git https://github.com/lemwish/tools_.git
-~tools_
-
-git remote set-url origin https://yourusername@github.com/user/repo.git
-git remote set-url origin https://khidodb@github.com/khidodb/repo.git
-
-url = https://github.com/lemwish/tools_.git
-
-https://khidodb@github.com/user/repo.git
-
-git remote set-url origin https://khidodb@github.com/khidodb/repo.git
-
-
-
-https://github.com/khidodb/tools_.git
-git remote set-url git@github.com:khidodb/tools_.git   https://khidodb@github.com/khidodb/repo.git
-
-
-git remote set-url https://khidodb@github.com/khidodb/tools_.git
-
-https://USERNAME@github.com/rootux/ms-Dropdown.git
-
-git clone ssh://khidodb@github.com/khidodb/tools_.git
-
-SSH
-Khidos_machine
-Fingerprint: e1:79:04:fd:3e:eb:a6:10:20:77:f0:18:29:a8:02:d6
-
-git push  <REMOTENAME> <BRANCHNAME>
-
-git remote add khidodb https://khidodb@github.com/khidodb/tools_.git
-
-git remote add origin https://khidodb@github.com/khidodb/tools_.git
-
-git remote add origin https://khidodb@github.com/khidodb/tools_.git
-
-git clone https://khidodb@github.com/khidodb/tools_.git
-
-git branch --track tools_
-
-git rev-list --left-right --count master...tools_
-
-
-
-
-
-
+Virtualization using Oracle VM VirtualBox for building two node Oracle RAC 11gR2 (11.2.0.2) cluster where Oracle 11.2.0.2 RDBMS coexists with 10gR2 git remote set-url origin https://khidodb@github.com/khidodb/tools_.git
 
 
 
