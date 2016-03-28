@@ -204,11 +204,14 @@ g
 git push --all origin -u
 
 how to merge stuff
+<<<<<<< HEAD
 
 git checkout master
-git log ..test # if you're curious
-git merge test
+git log ..mynotes # if you're curious
+git merge mynotes
 git push
+=======
+>>>>>>> mynotes
 
 
 
