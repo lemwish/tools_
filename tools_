@@ -127,16 +127,7 @@ image
  
  
 Virtualization using Oracle VM VirtualBox for building t...
-Virtualization using Oracle VM VirtualBox for building two node Oracle RAC 11gR2 (11.2.0.2) cluster where Oracle 11.2.0.2 RDBMS coexists with 10gR2 (10.2.0.5) RDBMS...
-View on gjilevski.com
-Preview by Yahoo
- 
- 
- 
-
-
-sudo apt-get purge virtualbox-\*
-apt-get autoremove libtommath0
+Virtualization using Oracle VM VirtualBox for building two node Oracle RAC 11gR2 (11.2.0.2) cluster where Oracle 11.2.0.2 RDBMS coexists with 10gR2 git remote set-url origin https://khidodb@github.com/khidodb/tools_.git
 
 
 
