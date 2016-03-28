@@ -179,11 +179,6 @@ Fingerprint: e1:79:04:fd:3e:eb:a6:10:20:77:f0:18:29:a8:02:d6
 
 git push  <REMOTENAME> <BRANCHNAME>
 
-git remote add khidodb https://khidodb@github.com/khidodb/tools_.git
-
-git remote add origin https://khidodb@github.com/khidodb/tools_.git
-
-git remote add origin https://khidodb@github.com/khidodb/tools_.git
 
 git clone https://khidodb@github.com/khidodb/tools_.git
 
@@ -202,9 +197,6 @@ git remote set-url origin https://khidodb@github.com/khidodb/tools_.git
 g
 
 git push --all origin -u
-
-how to merge stuff
-
 
 git checkout mynotes
 
