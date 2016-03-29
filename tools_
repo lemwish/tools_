@@ -262,7 +262,39 @@ git log ..mynotes # if you're curious
 git merge mynotes
 git push
 
-# after merge, add to repo
+# after merge, add to repo using 
+$ git add .
+
+# diversion, serious one : http://stackoverflow.com/questions/5601931/best-and-safest-way-to-merge-a-git-branch-into-master
+# http://stackoverflow.com/questions/7287027/displaying-a-table-in-django-from-database
+# https://sethrobertson.github.io/GitBestPractices/ 
+# https://crealytics.com/blog/2010/07/09/5-reasons-keeping-git-commits-small/
+
+$ git stash pop
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD ..." to unstage)
+#
+#   new file:   file2
+#
+# Changed but not updated:
+#   (use "git add ..." to update what will be committed)
+#   (use "git checkout -- ..." to discard changes in working directory)
+#
+#   modified:   README
+#
+Dropped refs/stash@{0} (9c72eaeebdb712ad527f06f88a5cbec1098957f1)
+$ ls
+file2  README
+$ cat README
+This is the README file.
+ADD TO THE WORKING DIRECTORY VERSION OF README
+Git stash: Just unbelievably convenient, easy and fast
+
+
+
+
+
 
 
 
