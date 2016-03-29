@@ -183,6 +183,50 @@ git push --all origin -u
 git stash
 -----------------------------------------------------------
 
+git commit -a -m 'mix staging and commiting'
+
+-----------------------------------------------------------
+#how to use git stash
+
+Let’s create a repository, add a file, and make the first commit:
+
+$ git init
+Initialized empty Git repository ...
+$ echo This is the README file. > README
+$ git add README
+$ git commit -m'Initial commit'
+[master (root-commit) 35ede5c] Initial commit
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+ create mode 100644 README
+Next we’ll make some changes to the working directory:
+
+Add a line to README
+Add a new file, file2
+$ echo ADD TO THE WORKING DIRECTORY VERSION OF README >> README
+$ echo file2 is here > file2
+$ ls
+file2  README
+
+# diversion-----
+http://waterdata.usgs.gov/nwis/uv?site_no=07374525
+
+# more diversion :(-------------------
+http://www.usgs.gov/newsroom/article.asp?ID=3387&from=rss
+
+#Let try this again-------------------
+We Get Interrupted
+
+# Now we find out about the bug we need to fix in another branch. Our goal is to stash (save) the changes that we had made to the working directory, # go to the other branch and then eventually return to right before we heard about that bug.
+
+
+
+
+
+
+
+
+
+
 
 
 
