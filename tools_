@@ -325,7 +325,16 @@ http://stackoverflow.com/questions/13521397/extract-data-from-lines-of-text-file
 
 # brand new project 
 git clone https://github.com/khidodb/filehandler.git
+http://pandas-docs.github.io/pandas-docs-travis/
+http://julienphalip.com/post/2825034077/adding-search-to-a-django-site-in-a-snap
 
+# Set up django with postgre 
+
+1.sudo apt-get install python3-dev libpq-dev
+2.mkdir django
+3.cd django
+4.virtualenv -p /usr/bin/python3.4 venv
+5
 
 
 
