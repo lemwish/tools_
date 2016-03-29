@@ -218,6 +218,32 @@ We Get Interrupted
 
 # Now we find out about the bug we need to fix in another branch. Our goal is to stash (save) the changes that we had made to the working directory, # go to the other branch and then eventually return to right before we heard about that bug.
 
+#Add Files To The Index
+
+#We first need to add the new file, file2, to the index, so git will track the file and know to save the file during the
+git stash:
+
+$ git add file2
+#We don’t need to add README to the index since that file path was already in the index: Git will notice that the working directory version is newer #than the index and will stash it.
+
+
+
+# git stash summary
+
+#Stash Time
+
+Now we’re ready for the stashing:
+
+$ git stash
+
+Saved working directory and index state WIP on master: 8d8b865 Initial commit
+HEAD is now at 8d8b865 Initial commit
+$ ls
+README
+$ cat README
+
+# diversion - https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+
 
 
 
