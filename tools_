@@ -244,6 +244,17 @@ $ cat README
 
 # diversion - https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
 
+# To stop tracking a file that is currently tracked, use 
+$ git rm --cached file
+# in our case this becomes : 
+git rm --cached tools_~
+git rm --cached khido_branch~
+
+# https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+
+# command below will only push current repository
+$ git push 
+
 
 
 
