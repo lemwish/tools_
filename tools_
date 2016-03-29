@@ -262,7 +262,10 @@ git log ..mynotes # if you're curious
 git merge mynotes
 git push
 
-# after merge, add to repo
+# after merge, add to repo using 
+$ git add .
+
+
 
 
 
