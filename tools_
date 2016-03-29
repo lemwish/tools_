@@ -149,8 +149,6 @@ url=ssh://git@github.com/lemwish/tools_.git
 https://bytes.com/topic/postgresql/answers/421355-storing-file-hash-primary-key
 rm .git/.config.swp
 http://www.cyberciti.biz/faq/howto-linux-unix-delete-remove-file/
-git remote set-url ssh://khidodb@github.com/lemwish/tools_.git https://github.com/lemwish/tools_.git
-~tools_
 
 git remote set-url origin https://yourusername@github.com/user/repo.git
 git remote set-url origin https://khidodb@github.com/khidodb/repo.git
@@ -162,53 +160,110 @@ https://khidodb@github.com/user/repo.git
 git remote set-url origin https://khidodb@github.com/khidodb/repo.git
 
 
-
-https://github.com/khidodb/tools_.git
-git remote set-url git@github.com:khidodb/tools_.git   https://khidodb@github.com/khidodb/repo.git
-
-
-git remote set-url https://khidodb@github.com/khidodb/tools_.git
-
-https://USERNAME@github.com/rootux/ms-Dropdown.git
-
-git clone ssh://khidodb@github.com/khidodb/tools_.git
-
 SSH
 Khidos_machine
 Fingerprint: e1:79:04:fd:3e:eb:a6:10:20:77:f0:18:29:a8:02:d6
 
-git push  <REMOTENAME> <BRANCHNAME>
-
-git remote add khidodb https://khidodb@github.com/khidodb/tools_.git
-
-git remote add origin https://khidodb@github.com/khidodb/tools_.git
-
-git remote add origin https://khidodb@github.com/khidodb/tools_.git
-
-git clone https://khidodb@github.com/khidodb/tools_.git
-
-git branch --track tools_
-
-git rev-list --left-right --count master...tools_
-
-
+-----------------------------------------------------------
 sudo apt-get remove git
 sudo add-apt-repository ppa:git-core/ppa
 sudo apt-get update
 sudo apt-get install git
 git --version
-
-git remote set-url origin https://khidodb@github.com/khidodb/tools_.git
-g
+------------------------------------------------------------------------
 
 git push --all origin -u
 
-how to merge stuff
+why is git igonore being ignored? 
+
+------------------------------------------------------------------------
+# to publish my branch... 
+git push --all origin -u
+-----------------------------------------------------------
+git stash
+-----------------------------------------------------------
+
+git commit -a -m 'mix staging and commiting'
+
+-----------------------------------------------------------
+#how to use git stash
+
+Let’s create a repository, add a file, and make the first commit:
+
+$ git init
+Initialized empty Git repository ...
+$ echo This is the README file. > README
+$ git add README
+$ git commit -m'Initial commit'
+[master (root-commit) 35ede5c] Initial commit
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+ create mode 100644 README
+Next we’ll make some changes to the working directory:
+
+Add a line to README
+Add a new file, file2
+$ echo ADD TO THE WORKING DIRECTORY VERSION OF README >> README
+$ echo file2 is here > file2
+$ ls
+file2  README
+
+# diversion-----
+http://waterdata.usgs.gov/nwis/uv?site_no=07374525
+
+# more diversion :(-------------------
+http://www.usgs.gov/newsroom/article.asp?ID=3387&from=rss
+
+#Let try this again-------------------
+We Get Interrupted
+
+# Now we find out about the bug we need to fix in another branch. Our goal is to stash (save) the changes that we had made to the working directory, # go to the other branch and then eventually return to right before we heard about that bug.
+
+#Add Files To The Index
+
+#We first need to add the new file, file2, to the index, so git will track the file and know to save the file during the
+git stash:
+
+$ git add file2
+#We don’t need to add README to the index since that file path was already in the index: Git will notice that the working directory version is newer #than the index and will stash it.
+
+
+
+# git stash summary
+
+#Stash Time
+
+Now we’re ready for the stashing:
+
+$ git stash
+
+Saved working directory and index state WIP on master: 8d8b865 Initial commit
+HEAD is now at 8d8b865 Initial commit
+$ ls
+README
+$ cat README
+
+# diversion - https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+
+# To stop tracking a file that is currently tracked, use 
+$ git rm --cached file
+# in our case this becomes : 
+git rm --cached tools_~
+git rm --cached khido_branch~
+
+# https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+
+# command below will only push current repository
+$ git push 
+
+git checkout mynotes
 
 git checkout master
 git log ..mynotes # if you're curious
 git merge mynotes
 git push
+
+# after merge, add to repo
+
 
 
 
