@@ -328,6 +328,38 @@ git clone https://github.com/khidodb/filehandler.git
 http://pandas-docs.github.io/pandas-docs-travis/
 http://julienphalip.com/post/2825034077/adding-search-to-a-django-site-in-a-snap
 
+# push out exisiting repo
+git remote add origin https://github.com/lemwish/try18.git
+
+# after push then you: 
+git push -u origin master
+
+#diversion
+------------------------------
+http://codereview.stackexchange.com/questions/86235/parsing-a-big-text-file-extract-data-store-it-in-a-csv-file
+https://waymoot.org/home/python_string/
+http://stackoverflow.com/questions/2632205/how-to-count-the-number-of-files-in-a-directory-using-python
+http://stackoverflow.com/questions/2632205/how-to-count-the-number-of-files-in-a-directory-using-python
+http://stackoverflow.com/questions/13521397/extract-data-from-lines-of-text-file-in-python
+http://stackoverflow.com/questions/12561063/python-extract-data-from-file
+https://github.com/bradleyayers/django-tables2/issues/288
+http://stackoverflow.com/questions/7287027/displaying-a-table-in-django-from-database
+-------------------------------
+
+Example
+The following example shows the usage of walk() method.
+
+# !/usr/bin/python
+
+import os
+for root, dirs, files in os.walk(".", topdown=False):
+    for name in files:
+        print(os.path.join(root, name))
+    for name in dirs:
+        print(os.path.join(root, name))
+#End diversion
+
+
 # Set up django with postgre 
 
 1.sudo apt-get install python3-dev libpq-dev
