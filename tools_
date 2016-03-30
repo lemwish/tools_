@@ -334,7 +334,21 @@ http://julienphalip.com/post/2825034077/adding-search-to-a-django-site-in-a-snap
 2.mkdir django
 3.cd django
 4.virtualenv -p /usr/bin/python3.4 venv
-5
+5.###python path /usr/local/lib/python3.4
+6.source venv/bin/activate
+7.pip install django==1.8
+9.pip install psycopg2
+10.django-admin.py startproject myproject
+11.ls
+12.sudo apt-get install postgresql
+13.sudo -i -u postgres
+14.createuser --interactive --pwprompt
+15.user name and password
+16.no superuser and create database and no roles
+17.createdb myprojectdb
+18.psql
+19.grand all previledges on database myprojectdb to myuser
+
 
 
 
