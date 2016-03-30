@@ -310,6 +310,10 @@ git commit -m "first commit"
 git remote add origin https://github.com/lemwish/filehandler.git
 git push -u origin master
 
+git remote add origin https://github.com/lemwish/filehandler.git
+
+git@github.com:khidodb/tools_.git
+
 …or push an existing repository from the command line
 
 git remote add origin https://github.com/lemwish/filehandler.git
@@ -334,6 +338,35 @@ git remote add origin https://github.com/lemwish/try18.git
 # after push then you: 
 git push -u origin master
 
+# well, how about this one also. Will give it s try 
+git push --all origin -u
+
+#change repo_ , good one 
+
+git remote set-url origin https://github.com/khidodb/try18.git
+git remote set-url origin git@github.com:khidodb/tools_.git
+
+ssh-keygen -t rsa -b 4096 -C 
+
+$ eval "$(ssh-agent -s)"
+Agent pid 27040
+
+git@github.com:khidodb/tools_.git   
+
+-----
+khido@khido-Latitude-E4310:~/projects/notes_/tools_$ git remote -v
+origin	https://khidodb@github.com/khidodb/tools_.git (fetch)
+origin	https://khidodb@github.com/khidodb/tools_.git (push)
+
+
+
+
+
+
+
+
+
+
 #diversion
 ------------------------------
 http://codereview.stackexchange.com/questions/86235/parsing-a-big-text-file-extract-data-store-it-in-a-csv-file
@@ -345,7 +378,7 @@ http://stackoverflow.com/questions/12561063/python-extract-data-from-file
 https://github.com/bradleyayers/django-tables2/issues/288
 http://stackoverflow.com/questions/7287027/displaying-a-table-in-django-from-database
 -------------------------------
-
+.README.md.swp
 Example
 The following example shows the usage of walk() method.
 
