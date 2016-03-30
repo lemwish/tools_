@@ -343,11 +343,18 @@ http://julienphalip.com/post/2825034077/adding-search-to-a-django-site-in-a-snap
 12.sudo apt-get install postgresql
 13.sudo -i -u postgres
 14.createuser --interactive --pwprompt
-15.user name and password
-16.no superuser and create database and no roles
+	-15.user name:malwaredb
+	-16.passwd   :
+16.superuser? no
+17.createdb? yes
+18.create roles? no 
 17.createdb myprojectdb
-18.psql
+18.psql:
+	-grant all priviledges on database myprojectdb to 
 19.grand all previledges on database myprojectdb to myuser
+
+# diversion : https://github.com/bradleyayers/django-tables2/issues/288
+
 
 
 
