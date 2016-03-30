@@ -1,0 +1,36 @@
+<h1>{{title}}</h1>
+
+{{user}}
+<body>
+
+
+        <select>
+             <option>Option 1</option>
+             <option>Option 2</option>
+             <option value="third option">Option 3</option>
+        </select>
+
+    <form action="contactus.php" method="post">
+     <p>{{context}}</p>
+     <p><input type="text" value="full name"></p>
+     <p><input type="text" value="email"></p>
+     <p><input type="submit" value ="save"></p>
+
+    <p>Name:</p>
+    <p><input type="text" name="name" value="Your name"></p>
+
+    <p>Comments: </p>
+    <p><textarea name="comments" rows="5" cols="20">Your comments</textarea></p>
+
+    <p>Are you:</p>
+    <p><input type="radio" name="areyou" value="male"> Male</p>
+    <p><input type="radio" name="areyou" value="female"> Female</p>
+    <p><input type="radio" name="areyou" value="hermaphrodite"> An hermaphrodite</p>
+    <p><input type="radio" name="areyou" value="asexual"> Asexual</p>
+
+    <p><input type="submit"></p>
+
+</form>
+
+</body>
+
