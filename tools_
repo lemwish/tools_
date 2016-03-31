@@ -310,6 +310,10 @@ git commit -m "first commit"
 git remote add origin https://github.com/lemwish/filehandler.git
 git push -u origin master
 
+git remote add origin https://github.com/lemwish/filehandler.git
+
+git@github.com:khidodb/tools_.git
+
 …or push an existing repository from the command line
 
 git remote add origin https://github.com/lemwish/filehandler.git
@@ -328,6 +332,67 @@ git clone https://github.com/khidodb/filehandler.git
 http://pandas-docs.github.io/pandas-docs-travis/
 http://julienphalip.com/post/2825034077/adding-search-to-a-django-site-in-a-snap
 
+# push out exisiting repo
+git remote add origin https://github.com/lemwish/try18.git
+
+# after push then you: 
+git push -u origin master
+
+# well, how about this one also. Will give it s try 
+git push --all origin -u
+
+#change repo_ , good one 
+
+git remote set-url origin https://github.com/khidodb/try18.git
+git remote set-url origin git@github.com:khidodb/tools_.git
+
+ssh-keygen -t rsa -b 4096 -C 
+
+$ eval "$(ssh-agent -s)"
+Agent pid 27040
+
+git@github.com:khidodb/tools_.git   
+
+-----
+khido@khido-Latitude-E4310:~/projects/notes_/tools_$ git remote -v
+origin	https://khidodb@github.com/khidodb/tools_.git (fetch)
+origin	https://khidodb@github.com/khidodb/tools_.git (push)
+
+
+
+
+
+
+
+
+
+
+#diversion
+------------------------------
+http://codereview.stackexchange.com/questions/86235/parsing-a-big-text-file-extract-data-store-it-in-a-csv-file
+https://waymoot.org/home/python_string/
+http://stackoverflow.com/questions/2632205/how-to-count-the-number-of-files-in-a-directory-using-python
+http://stackoverflow.com/questions/2632205/how-to-count-the-number-of-files-in-a-directory-using-python
+http://stackoverflow.com/questions/13521397/extract-data-from-lines-of-text-file-in-python
+http://stackoverflow.com/questions/12561063/python-extract-data-from-file
+https://github.com/bradleyayers/django-tables2/issues/288
+http://stackoverflow.com/questions/7287027/displaying-a-table-in-django-from-database
+-------------------------------
+.README.md.swp
+Example
+The following example shows the usage of walk() method.
+
+# !/usr/bin/python
+
+import os
+for root, dirs, files in os.walk(".", topdown=False):
+    for name in files:
+        print(os.path.join(root, name))
+    for name in dirs:
+        print(os.path.join(root, name))
+#End diversion
+
+
 # Set up django with postgre 
 
 1.sudo apt-get install python3-dev libpq-dev
@@ -343,11 +408,18 @@ http://julienphalip.com/post/2825034077/adding-search-to-a-django-site-in-a-snap
 12.sudo apt-get install postgresql
 13.sudo -i -u postgres
 14.createuser --interactive --pwprompt
-15.user name and password
-16.no superuser and create database and no roles
+	-15.user name:malwaredb
+	-16.passwd   :
+16.superuser? no
+17.createdb? yes
+18.create roles? no 
 17.createdb myprojectdb
-18.psql
+18.psql:
+	-grant all priviledges on database myprojectdb to 
 19.grand all previledges on database myprojectdb to myuser
+
+# diversion : https://github.com/bradleyayers/django-tables2/issues/288
+
 
 
 

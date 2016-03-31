@@ -1,2 +1,3 @@
-# tools_
-frequently used commands
+# try18
+=======
+test some functionalities in django
